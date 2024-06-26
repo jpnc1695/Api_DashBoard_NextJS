@@ -1,6 +1,7 @@
 import users from "../models/Users.js";
 
 class userController {
+  
   static listarUser = async (req, res) => {
     try {
       const result = await users.find();
